@@ -12,8 +12,8 @@ function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
-    }
-}
+    };
+};
 
 const cardContainer = document.getElementById('cardContainer');
 const cards = Array.from(cardContainer.getElementsByClassName('cards'));
@@ -25,62 +25,69 @@ cardContainer.innerHTML = '';
 cards.forEach(card => {
     cardContainer.appendChild(card);
 });
-   
+
 let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
 
 const grid1 = document.querySelectorAll(".grid1 .cards");
 grid1.forEach((cards) => {
-    cards.addEventListener("click", () => {
-       cards.classList.add("clicked");
-       
-       if(counter === 0) {
-        firstSelection = cards.getAttribute("hp");
-        counter++;
-       } else {
-        secondSelection = cards.getAttribute("hp");
-        counter=0;
-            if(firstSelection === secondSelection) {
-                const correctCards = document.querySelectorAll(
-                ".cards[hp='" + secondSelection + "']");
-                correctCards[0].classList.add("correct");
-                correctCards[0].classList.add("disappear")
-                correctCards[0].classList.remove("clicked");
-                correctCards[1].classList.add("correct");
-                correctCards[1].classList.add("disappear")
-                correctCards[1].classList.remove("clicked");
-
-                score += 1;
-                scoreCount.textContent = score;
-
-                if (score === 14) {
-                    window.location.href = "winner.html";
-                };
-
-            } else {
-                const incorrectCards = document.querySelectorAll(".cards.clicked");
-                incorrectCards[0].classList.add("shake");
-                incorrectCards[1].classList.add("shake");
-
-                if (lives > 0) {
-                    console.log(lives)
-                    lives -= 1;
-                    livesCount.textContent = lives;
-                }
-
-                setTimeout(() => {
-                    incorrectCards[0].classList.remove("shake");
-                    incorrectCards[0].classList.remove("clicked");
-                    incorrectCards[1].classList.remove("shake");
-                    incorrectCards[1].classList.remove("clicked");
-                }, 800);
-
-                if (lives === 0) {
-                    window.location.href = "looser.html";
-                };
-
-            };
-       };
-    });
+    cards.addEventListener("click", handleCardClick);
 });
+
+function handleCardClick() {
+    if (this.classList.contains("clicked")) {
+        return;
+    };
+
+    this.classList.add("clicked");
+
+    if (counter === 0) {
+        firstSelection = this.getAttribute("hp");
+        counter++;
+    } else {
+        secondSelection = this.getAttribute("hp");
+        counter = 0;
+
+        if (firstSelection === secondSelection) {
+            const correctCards = document.querySelectorAll(
+                ".cards[hp='" + secondSelection + "']");
+            correctCards.forEach((card) => {
+                card.classList.add("correct", "disappear");
+                card.classList.remove("clicked");
+                card.removeEventListener("click", handleCardClick);
+            });
+
+            score += 1;
+            scoreCount.textContent = score;
+
+            if (score === 14) {
+                window.location.href = "winner.html";
+            };
+
+        } else {
+            const incorrectCards = document.querySelectorAll(".cards.clicked");
+            incorrectCards.forEach((card) => {
+                card.classList.add("shake");
+                card.removeEventListener("click", handleCardClick);
+            });
+
+            if (lives > 0) {
+                console.log(lives);
+                lives -= 1;
+                livesCount.textContent = lives;
+            };
+
+            setTimeout(() => {
+                incorrectCards.forEach((card) => {
+                    card.classList.remove("shake", "clicked");
+                    card.addEventListener("click", handleCardClick);
+                });
+            }, 800);
+
+            if (lives === 0) {
+                window.location.href = "looser.html";
+            };
+        };
+    };
+};

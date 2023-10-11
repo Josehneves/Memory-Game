@@ -2,7 +2,7 @@
 
 Welcome to the enchanting world of Harry Potter and The Memory Game! Immerse yourself in the magical universe of Harry Potter as you embark on a thrilling memory game adventure. Test your wizarding prowess and relive the iconic moments from the beloved movie series.
 
-## Descripiton and How to Use
+## Descripiton
 Step into the halls of Hogwarts School of Witchcraft and Wizardry, where the challenge awaits. Harry Potter and The Memory Game is a game that transports you through the seven Harry Potter movies, featuring a distinct pair of images from each cinematic masterpiece. With 14 pairs in total, get ready to explore the magical journey from "The Sorcerer's Stone" to "The Deathly Hallows."
 
 As the game begins, you'll have a mere 60 seconds to gaze upon the captivating images and commit them to memory. The challenge lies in matching the pairs correctly, beware of the perilous consequences of a wrong guess. Lose a life with each misstep, and with seven lives at your disposal, the threat of expulsion looms. Can you maintain your composure and persevere, or will you succumb to the pressure of the magical challenge?
@@ -10,6 +10,10 @@ As the game begins, you'll have a mere 60 seconds to gaze upon the captivating i
 But fear not, young wizard! For every successful match, you earn points, inching closer to the coveted House Cup. If you can successfully pair all 14 sets of images, you will emerge victorious, securing glory for your house and earning the admiration of your fellow witches and wizards.
 
 Get ready to showcase your magical prowess and embark on a mesmerizing journey through the wizarding world. Harry Potter and The Memory Game awaits, where the magic of memory meets the thrill of the wizarding world!
+
+## How to Use
+
+
 
 ## Gallery
 
