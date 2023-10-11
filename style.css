@@ -3,7 +3,7 @@
 .bhome {
     background-image: url("https://images5.alphacoders.com/120/1207344.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     z-index: -1;
     background-color: black;
 }
@@ -17,69 +17,160 @@
 }
 
 .titlebox h1 {
-    font-size: 150px;
+    font-size: 280px;
+    margin-top: -50px;
 }
 
 .titlebox h2 {
-    font-size: 50px;
+    font-size: 100px;
     position: relative;
-    bottom: 140px;
-    left: 230px;
+    bottom: 70px;
+    left: 500px;
 }
 
-/* buttons style */
-
-.buttons {
+.buttonshome {
     font-family: 'Bigelow Rules', cursive;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: line;
+    display: flex;
     text-align: center;
-    margin-top: 180px;
-}
-
-.start:hover, .start:focus, .levels:hover, .levels:focus {
-    background-color: goldenrod;
+    margin-top: 480px;
 }
 
 .start {
-    margin-bottom: 50px;
-    margin-right: 10px;
     color: black;
     background-color: gold;
     border-radius: 50%;
     border-color: gold;
     padding: .5em 1em;
-    width: 10%;
-    font-size: 30px;
+    font-size: 70px;
     cursor: pointer;
     text-decoration: none;
-    
+    margin-top: 70px;
 }
 
-.levels {
-    position: relative;
+.rules {
     color: black;
     background-color: gold;
     border-radius: 50%;
     border-color: gold;
-    padding: .5em 1em;
-    font-size: 30px;
+    padding: 0.5em 1em;
+    font-size: 70px;
     cursor: pointer;
     text-decoration: none;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
+
+.start:hover, .start:focus, .rules:hover, .rules:focus {
+    background-color: goldenrod;
+}
+
+/* Rules */
+
+.brules {
+    background-image: url("https://minalima.com/wp-content/themes/oddb-storefront/_layouts/product_envelope/envelope.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: black;
+}
+
+.rulestitle {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 150px;
+    color: rgb(51, 168, 31);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.prules {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 80px;
+    color: rgb(51, 168, 31);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.back {
+    font-family: 'Bigelow Rules', cursive;
+    margin-left: 700px;
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(133, 26, 26);
+    border-radius: 50%;
+    border-color: rgb(80, 0, 0);
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gotofirst {
+    font-family: 'Bigelow Rules', cursive;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(133, 26, 26);
+    border-radius: 50%;
+    border-color: rgb(80, 0, 0);
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonsrules {
+    display: flex;
+    text-align: center;
+}
+
+
+.back:hover, .back:focus, .gotofirst:hover, .gotofirst:focus {
+    background-color: rgb(86, 0, 0);
+}
+
 
 /* leve 1 page */
 
 .blevel1 {
     background-image: url("https://images.hdqwalls.com/wallpapers/harry-potter-and-the-sorcerers-stone-xx.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     z-index: -1;
     background-color: black;
+}
+.h1l1 {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 90px;
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    color: rgb(237, 201, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+} 
+
+.metrics {
+    text-align: center;
+}
+
+.h2l1 {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 90px;
+    display: inline;
+    color: rgb(237, 201, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 * {
@@ -91,19 +182,20 @@
 .grid1 {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-    padding: 20px 250px 20px 250px;
+    grid-template-columns: repeat(7, 290px);
+    grid-template-rows: repeat(4, 220px);
+    grid-gap: 70px;
+    margin-left: 50px;
+    margin-top: 70px;
 }
-
 .cards {
     display: grid;
-    height: 200px;
+    height: 280px;
     width: 350px;
     background-color: goldenrod;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
     place-items: center;
 }
 
@@ -116,158 +208,195 @@
     height: 95%;
     border-radius: 5%;
     opacity: 0;
+    animation: viewstart 45s;
 }
 
-@media (min-width: 1800px) {
-    .start {
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-top: 100px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 10%;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        
-    }
-    
-    .levels {
-        position: relative;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        margin-top: 100px;
-    }
+@keyframes viewstart {
+    from {opacity: 1;}
+    to {opacity: 0;}
 }
 
-@media (min-width: 1650px) {
-    .start {
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-top: 90px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 10%;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        
-    }
-    
-    .levels {
-        position: relative;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        margin-top: 90px;
-    }
+.cards.clicked img,
+.cards.correct img {
+    opacity: 1;
 }
 
-@media (max-width: 1350px) {
-    .titlebox h1 {
-        font-size: 100px;
-    }
-    
-    .titlebox h2 {
-        font-size: 30px;
-        position: relative;
-        bottom: 100px;
-        left: 180px;
-    }
+.cards.disappear {
+    opacity: 0;
+    transition: ease-out 5s;
+}
 
-    .start {
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-top: 70px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 10%;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        
+.cards.correct {
+    background-color: green;
+}
+
+.cards.shake {
+    background-color: red;
+    animation: shake 1s;
+}
+
+.audio {
+    height: 100px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
     }
-    
-    .levels {
-        position: relative;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        margin-top: 70px;
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
     }
 }
 
-@media (max-width: 750px) {
-    .titlebox h1 {
-        font-size: 70px;
-    }
-    
-    .titlebox h2 {
-        font-size: 25px;
-        position: relative;
-        bottom: 70px;
-        left: 140px;
-    }
+/* winner message */
 
-    .start {
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-top: 20px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 10%;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        
-    }
-    
-    .levels {
-        position: relative;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+.bwinner {
+    background-image: url("https://wallpapers.com/images/hd/gryffindor-quidditch-victory-i0q72zoyv2z47ws6.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    z-index: -1;
+    background-color: black;
 }
+
+h4 {
+    text-align: center;
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: bolder;
+    font-size: 250px;
+    margin-top: -90px;
+    margin-bottom: 350px;
+    color: rgb(237, 201, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+}
+
+.home {
+    margin-left: 400px;
+    margin-top: 200px;
+    color: black;
+    background-color: gold;
+    border-radius: 50%;
+    border-color: gold;
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.playagain {
+    margin-left: 700px;
+    margin-top: 200px;
+    color: black;
+    background-color: gold;
+    border-radius: 50%;
+    border-color: gold;
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonswm {
+    font-family: 'Bigelow Rules', cursive;
+    display: flex;
+    text-align: center;
+    margin-top: 550px;
+}
+
+.home:hover, .home:focus, .playagain:hover, .playagain:focus {
+    background-color: goldenrod;
+}
+
+/* looser message */
+
+.blooser {
+    background-image: url("https://images5.alphacoders.com/121/1216331.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    background-color: black;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: bolder;
+    font-size: 180px;
+    margin-top: 250px;
+    color: rgb(237, 201, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
+}
+
+.homebutton {
+    margin-left: 1800px;
+    margin-top: -250px;
+    color: black;
+    background-color: gold;
+    border-radius: 50%;
+    border-color: gold;
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tryagain {
+    margin-left: 1800px;
+    margin-top: 200px;
+    color: black;
+    background-color: gold;
+    border-radius: 50%;
+    border-color: gold;
+    padding: .5em 1em;
+    width: 20%;
+    font-size: 60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonslm {
+    font-family: 'Bigelow Rules', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 550px;
+}
+
+.homebutton:hover, .homebutton:focus, .tryagain:hover, .tryagain:focus {
+    background-color: goldenrod;
+}
+
+/* resizing home page */

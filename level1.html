@@ -3,33 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>HP - Memory Game</title>
 </head>
 <body class="blevel1">
-    <h1>Level 1</h1>
-    <h2>Life</h2>
-    <div class="grid1">
-        <div class="cards">
-            <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/harry-potter-and-the-sorcerers-stone-ss3.jpg">
+    <iframe class="audio" autoplay src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/214572803&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    <h1 class="h1l1">Welcome to Hogwarts</h1>
+    <div class="metrics">
+        <h2 class="h2l1">Lives <span class="livesCount"></span></h2>
+        <h2 class="h2l1">Score <span class="scoreCount"></span></h2>
+    </div>
+    <div class="grid1" id="cardContainer">
+        <div class="row">
+            <div class="cards" id="colum" hp="wand">
+                <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/harry-potter-and-the-sorcerers-stone-ss3.jpg">
+            </div>
+            <div class="cards" id="colum" hp="wand">
+                <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/harry-potter-and-the-sorcerers-stone-ss3.jpg">
+            </div>
+            <div class="cards" id="colum" hp="hermione">
+                <img src="https://www.highonfilms.com/wp-content/uploads/2022/02/Sorcerers-Stone-01-1024x576.jpeg">
+            </div>
+            <div class="cards" id="colum" hp="hermione">
+                <img src="https://www.highonfilms.com/wp-content/uploads/2022/02/Sorcerers-Stone-01-1024x576.jpeg">
+            </div>
+            <div class="cards" id="colum" hp="dobby">
+                <img src="https://images7.alphacoders.com/340/thumbbig-340601.webp">
+            </div>
+            <div class="cards" id="colum" hp="dobby">
+                <img src="https://images7.alphacoders.com/340/thumbbig-340601.webp">
+            </div>
+            <div class="cards" id="colum" hp="chamber">
+                <img src="https://images4.alphacoders.com/119/thumbbig-1192117.webp">
+            </div>
         </div>
-        <div class="cards">
-            <img src="https://variety.com/wp-content/uploads/2016/10/harry-potter-and-the-sorcerers-stone.jpg?w=1000&h=563&crop=1">
+        <div class="row">
+            <div class="cards" id="colum" hp="chamber">
+                <img src="https://images4.alphacoders.com/119/thumbbig-1192117.webp">
+            </div>
+            <div class="cards" id="colum" hp="punch">
+                <img src="https://images8.alphacoders.com/922/thumbbig-922821.webp">
+            </div>
+            <div class="cards" id="colum" hp="punch">
+                <img src="https://images8.alphacoders.com/922/thumbbig-922821.webp">
+            </div>
+            <div class="cards" id="colum" hp="buckbic">
+                <img src="https://images2.alphacoders.com/119/thumbbig-1192022.webp">
+            </div>
+            <div class="cards" id="colum" hp="buckbic">
+                <img src="https://images2.alphacoders.com/119/thumbbig-1192022.webp">
+            </div>
+            <div class="cards" id="colum" hp="merpeople">
+                <img src="https://images8.alphacoders.com/439/thumbbig-439674.webp">
+            </div>
+            <div class="cards" id="colum" hp="merpeople">
+                <img src="https://images8.alphacoders.com/439/thumbbig-439674.webp">
+            </div>
         </div>
-        <div class="cards">
-            <img src="https://www.highonfilms.com/wp-content/uploads/2022/02/Sorcerers-Stone-01-1024x576.jpeg">
+        <div class="row">
+            <div class="cards" id="colum" hp="ball">
+                <img src="https://images8.alphacoders.com/119/thumbbig-1197087.webp">
+            </div>
+            <div class="cards" id="colum" hp="ball">
+                <img src="https://images8.alphacoders.com/119/thumbbig-1197087.webp">
+            </div>
+            <div class="cards" id="colum" hp="voldemort">
+                <img src="https://images3.alphacoders.com/121/thumbbig-1216731.webp">
+            </div>
+            <div class="cards" id="colum" hp="voldemort">
+                <img src="https://images3.alphacoders.com/121/thumbbig-1216731.webp">
+            </div>
+            <div class="cards" id="colum" hp="order">
+                <img src="https://images.alphacoders.com/504/thumbbig-504682.webp">
+            </div>
+            <div class="cards" id="colum" hp="order">
+                <img src="https://images.alphacoders.com/504/thumbbig-504682.webp">
+            </div>
+            <div class="cards" id="colum" hp="vow">
+                <img src="https://images6.alphacoders.com/923/thumbbig-923173.webp">
+            </div>
         </div>
-        <div class="cards">
-            <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/harry-potter-and-the-sorcerers-stone-ss3.jpg">
-        </div>
-        <div class="cards">
-            <img src="https://variety.com/wp-content/uploads/2016/10/harry-potter-and-the-sorcerers-stone.jpg?w=1000&h=563&crop=1">
-        </div>
-        <div class="cards">
-            <img src="https://www.highonfilms.com/wp-content/uploads/2022/02/Sorcerers-Stone-01-1024x576.jpeg">
+        <div class="row">
+            <div class="cards" id="colum" hp="vow">
+                <img src="https://images6.alphacoders.com/923/thumbbig-923173.webp">
+            </div>
+            <div class="cards" id="colum" hp="dumbledore">
+                <img src="https://images.alphacoders.com/923/thumbbig-923195.webp">
+            </div>
+            <div class="cards" id="colum" hp="dumbledore">
+                <img src="https://images.alphacoders.com/923/thumbbig-923195.webp">
+            </div>
+            <div class="cards" id="colum" hp="last">
+                <img src="https://images3.alphacoders.com/923/thumbbig-923510.webp">
+            </div>
+            <div class="cards" id="colum" hp="last">
+                <img src="https://images3.alphacoders.com/923/thumbbig-923510.webp">
+            </div>
+            <div class="cards" id="colum" hp="coward">
+                <img src="https://images6.alphacoders.com/923/thumbbig-923502.webp">
+            </div>
+            <div class="cards" id="colum" hp="coward">
+                <img src="https://images6.alphacoders.com/923/thumbbig-923502.webp">
+            </div>
         </div>
     </div>
-    <h2>Score</h2>
 </body>
 </html>
