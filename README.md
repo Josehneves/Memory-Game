@@ -1,5 +1,8 @@
 # Memory-Game
 
+![Screenshot 2023-10-11 at 5 41 57 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/96150d75-6c54-410e-acd8-0ea50915276e)
+
+
 Welcome to the enchanting world of Harry Potter and The Memory Game! Immerse yourself in the magical universe of Harry Potter as you embark on a thrilling memory game adventure. Test your wizarding prowess and relive the iconic moments from the beloved movie series.
 
 ## Descripiton and How to Use
@@ -12,6 +15,13 @@ But fear not, young wizard! For every successful match, you earn points, inching
 Get ready to showcase your magical prowess and embark on a mesmerizing journey through the wizarding world. Harry Potter and The Memory Game awaits, where the magic of memory meets the thrill of the wizarding world!
 
 ## Gallery
+
+![Screenshot 2023-10-11 at 5 42 26 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/3485c0d1-366e-4e1b-b66c-94a9e837bd40)
+
+![Screenshot 2023-10-11 at 5 51 04 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/49076a0e-3e19-41a7-a381-50eaf19e410d)
+
+![Screenshot 2023-10-11 at 5 51 30 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/2bd6d20b-2094-44e8-ac4e-d29774f23b68)
+
 
 ## Technologies
 - HTMl
