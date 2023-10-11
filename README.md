@@ -24,7 +24,7 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 
 
 ## Technologies
-- HTMl
+- HTML
 - CSS
 - JavaScript
 
