@@ -24,7 +24,7 @@ cards.forEach(card => {
     cardContainer.appendChild(card);
 });
 
-let timer = 10;
+let timer = 70;
 let countdownCompleted = false;
 
 const timerDisplay = document.createElement("span");
