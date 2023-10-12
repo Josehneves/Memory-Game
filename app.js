@@ -17,15 +17,46 @@ function shuffleArray(array) {
 
 const cardContainer = document.getElementById('cardContainer');
 const cards = Array.from(cardContainer.getElementsByClassName('cards'));
-
 shuffleArray(cards);
 
 cardContainer.innerHTML = '';
-
 cards.forEach(card => {
     cardContainer.appendChild(card);
 });
 
+let timer = 10;
+let countdownCompleted = false;
+
+const timerDisplay = document.createElement("span");
+timerDisplay.classList.add("timer");
+document.getElementById('timer-container').appendChild(timerDisplay);
+timerDisplay.textContent = timer;
+
+startTimer();
+
+function startTimer() {
+    const allCards = document.querySelectorAll(".cards img");
+
+    allCards.forEach((card) => {
+        card.style.opacity = 1;
+    });
+
+    const intervalId = setInterval(() => {
+        timer--;
+
+        timerDisplay.textContent = timer;
+
+        if (timer === 0) {
+            allCards.forEach((card) => {
+                card.style.opacity = 0;
+            });
+
+            clearInterval(intervalId);
+
+            countdownCompleted = true;
+        }
+    }, 1000);
+}
 let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
@@ -36,9 +67,13 @@ grid1.forEach((cards) => {
 });
 
 function handleCardClick() {
+    if (!countdownCompleted) {
+        return;
+    }
+
     if (this.classList.contains("clicked")) {
         return;
-    };
+    }
 
     this.classList.add("clicked");
 
@@ -63,7 +98,7 @@ function handleCardClick() {
 
             if (score === 14) {
                 window.location.href = "winner.html";
-            };
+            }
 
         } else {
             const incorrectCards = document.querySelectorAll(".cards.clicked");
@@ -76,7 +111,7 @@ function handleCardClick() {
                 console.log(lives);
                 lives -= 1;
                 livesCount.textContent = lives;
-            };
+            }
 
             setTimeout(() => {
                 incorrectCards.forEach((card) => {
@@ -87,7 +122,7 @@ function handleCardClick() {
 
             if (lives === 0) {
                 window.location.href = "looser.html";
-            };
-        };
-    };
-};
+            }
+        }
+    }
+}
