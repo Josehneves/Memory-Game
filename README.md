@@ -35,6 +35,10 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 
 ![Screenshot 2023-10-12 at 8 45 19 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/0337cc59-f3a7-4ec5-80aa-40c89b760b2a)
 
+## Future Enhancements
+
+As a future plan I pretend to make the game more resposive in differen screen sizes and also use React to bring it to mobile application.
+
 ## Author
 
 www.linkedin.com/in/jose-henrique-neves
