@@ -406,7 +406,7 @@ h3 {
 
 /* resizing */
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
 
     /* Home Page */
 
@@ -786,7 +786,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
 
     /* Home Page */
 
@@ -1162,7 +1162,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 915px) {
+@media (max-width: 915px) {
 
     /* Home Page */
 
@@ -1538,7 +1538,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
 
     /* Home Page */
 
@@ -1929,7 +1929,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
 
     /* Home Page */
 
@@ -2304,398 +2304,6 @@ h3 {
         padding: .5em 1em;
         width: 20%;
         font-size: 40px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    
-    .buttonslm {
-        font-family: 'Bigelow Rules', cursive;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 10px;
-    }
-    
-    .homebutton:hover, .homebutton:focus, .tryagain:hover, .tryagain:focus {
-        background-color: goldenrod;
-    }
-}
-
-@media screen and (max-width: 3840px) {
-
-    /* Home Page */
-
-    .bhome {
-        background-image: url("https://images5.alphacoders.com/120/1207344.jpg");
-        background-repeat: no-repeat;
-        background-size: 120%;
-        z-index: -1;
-        background-color: black;
-    }
-
-    .titlebox {
-        text-align: center;
-        font-family: 'Bigelow Rules', cursive;
-        font-weight: bolder;
-        color: rgb(237, 201, 0);
-    }
-
-    .titlebox h1 {
-        font-size: 400px;
-        margin-top: -100px;
-    }
-
-    .titlebox h2 {
-        font-size: 150px;
-        position: relative;
-        bottom: 150px;
-        left: 750px;
-    }
-
-    .buttonshome {
-        font-family: 'Bigelow Rules', cursive;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .start {
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        font-size: 90px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-top: 1100px;
-        margin-right: 150px;
-    }
-
-    .rules {
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: 0.5em 1em;
-        font-size: 90px;
-        cursor: pointer;
-        text-decoration: none;
-        margin-top: 1100px;
-        margin-left: 150px;
-    }
-
-    .start:hover, .start:focus, .rules:hover, .rules:focus {
-        background-color: goldenrod;
-    }
-
-    /* Rules */
-
-    .brules {
-        background-image: url("https://minalima.com/wp-content/themes/oddb-storefront/_layouts/product_envelope/envelope.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        z-index: -1;
-        background-color: black;
-    }
-    
-    .rulestitle {
-        font-family: 'Bigelow Rules', cursive;
-        font-size: 200px;
-        color: rgb(51, 168, 31);
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
-        text-align: center;
-        margin-top: 100px;
-    }
-    
-    .prules {
-        font-family: 'Bigelow Rules', cursive;
-        font-size: 100px;
-        color: rgb(51, 168, 31);
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: rgba(0, 0, 0, 0.776);
-        text-align: justify;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 100px;
-    }
-    
-    .back {
-        font-family: 'Bigelow Rules', cursive;
-        margin-left: 1250px;
-        margin-top: 300px;
-        color: white;
-        background-color: rgb(133, 26, 26);
-        border-radius: 50%;
-        border-color: rgb(80, 0, 0);
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    
-    .gotofirst {
-        font-family: 'Bigelow Rules', cursive;
-        margin-left: 300px;
-        margin-top: 300px;
-        color: white;
-        background-color: rgb(133, 26, 26);
-        border-radius: 50%;
-        border-color: rgb(80, 0, 0);
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    
-    .buttonsrules {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
-
-    .back:hover, .back:focus, .gotofirst:hover, .gotofirst:focus {
-        background-color: rgb(86, 0, 0);
-    }    
-
-    /* Level 1 */
-
-    .blevel1 {
-        background-image: url("https://images.hdqwalls.com/wallpapers/harry-potter-and-the-sorcerers-stone-xx.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        z-index: -1;
-        background-color: black;
-    }
-    .h1l1 {
-        font-family: 'Bigelow Rules', cursive;
-        font-size: 150px;
-        margin-top: -100px;
-        display: flex;
-        justify-content: center;
-        color: rgb(237, 201, 0);
-    } 
-    
-    .metrics {
-        text-align: center;
-    }
-    
-    .h2l1 {
-        font-family: 'Bigelow Rules', cursive;
-        font-size: 150px;
-        display: inline;
-        color: rgb(237, 201, 0);
-        padding-left: 400px;
-        padding-right: 400px;
-    }
-    
-    #timer-container {
-        font-family: 'Bigelow Rules', cursive;
-        font-size: 150px;
-        display: inline;
-        color: rgb(237, 201, 0); 
-        margin-top: 20px;
-    }
-      
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    .grid1 {
-        display: grid;
-        place-items: center;
-        grid-template-columns: repeat(7,520px);
-        grid-template-rows: repeat(4, 400px);
-        grid-gap: 5px;
-        margin-left: 80px;
-        margin-top: 0px;
-    }
-    .cards {
-        display: grid;
-        height: 350px;
-        width: 500px;
-        background-color: goldenrod;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.5s all ease;
-        place-items: center;
-    }
-    
-    .cards:hover {
-        transform: scale(1.03);
-    }
-    
-    .cards img {
-        width: 96%;
-        height: 95%;
-        border-radius: 5%;
-        opacity: 1;
-    }
-    
-    .cards.clicked img,
-    .cards.correct img {
-        opacity: 1 !important;
-    }
-    
-    .cards.disappear {
-        opacity: 0;
-        transition: ease-out 5s;
-    }
-    
-    .cards.correct {
-        background-color: green;
-    }
-    
-    .cards.shake {
-        background-color: red;
-        animation: shake 1s;
-    }
-    
-    @keyframes shake {
-        0% {
-          transform: translate(1px, 1px) rotate(0deg);
-        }
-        10% {
-          transform: translate(-1px, -2px) rotate(-1deg);
-        }
-        20% {
-          transform: translate(-3px, 0px) rotate(1deg);
-        }
-        30% {
-          transform: translate(3px, 2px) rotate(0deg);
-        }
-        40% {
-          transform: translate(1px, -1px) rotate(1deg);
-        }
-        50% {
-          transform: translate(-1px, 2px) rotate(-1deg);
-        }
-        60% {
-          transform: translate(-3px, 1px) rotate(0deg);
-        }
-        70% {
-          transform: translate(3px, 1px) rotate(-1deg);
-        }
-        80% {
-          transform: translate(-1px, -1px) rotate(1deg);
-        }
-        90% {
-          transform: translate(1px, 2px) rotate(0deg);
-        }
-        100% {
-          transform: translate(1px, -2px) rotate(-1deg);
-        }
-    }
-
-    /* win Mesage */
-
-    .bwinner {
-        background-image: url("https://wallpapers.com/images/hd/gryffindor-quidditch-victory-i0q72zoyv2z47ws6.jpg");
-        background-repeat: no-repeat;
-        background-size: 140%;
-        z-index: -1;
-        background-color: black;
-    }
-    
-    h4 {
-        text-align: center;
-        font-family: 'Bigelow Rules', cursive;
-        font-weight: bolder;
-        font-size: 280px;
-        margin-top: -110px;
-        margin-bottom: 50px;
-        color: rgb(237, 201, 0);
-    }
-    
-    .home {
-        margin-left: 1000px;
-        margin-top: 1200px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    
-    .playagain {
-        margin-left: 600px;
-        margin-top: 1200px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    
-    .buttonswm {
-        font-family: 'Bigelow Rules', cursive;
-        display: flex;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .home:hover, .home:focus, .playagain:hover, .playagain:focus {
-        background-color: goldenrod;
-    }
-
-    /* Looser Mesage */
-
-    .blooser {
-        background-image: url("https://images5.alphacoders.com/121/1216331.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        z-index: -1;
-        background-color: black;
-    }
-    
-    h3 {
-        text-align: center;
-        font-family: 'Bigelow Rules', cursive;
-        font-weight: bolder;
-        font-size: 280px;
-        margin-top: 300px;
-        color: rgb(237, 201, 0);
-    }
-    
-    .homebutton {
-        margin-left: 2700px;
-        margin-top: 500px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    .tryagain {
-        margin-left: 2700px;
-        margin-top: 300px;
-        color: black;
-        background-color: gold;
-        border-radius: 50%;
-        border-color: gold;
-        padding: .5em 1em;
-        width: 15%;
-        font-size: 70px;
         cursor: pointer;
         text-decoration: none;
     }
