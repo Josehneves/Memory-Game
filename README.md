@@ -1,11 +1,12 @@
 # Memory-Game
 
-![Screenshot 2023-10-11 at 5 41 57 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/96150d75-6c54-410e-acd8-0ea50915276e)
-
+![Screenshot 2023-10-12 at 8 36 48 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/7479435e-2907-467d-bef7-7a496749ad15)
 
 Welcome to the enchanting world of Harry Potter and The Memory Game! Immerse yourself in the magical universe of Harry Potter as you embark on a thrilling memory game adventure. Test your wizarding prowess and relive the iconic moments from the beloved movie series.
 
 ## Link to Game
+
+https://josehneves.github.io/Memory-Game/
 
 ## Descripiton
 Step into the halls of Hogwarts School of Witchcraft and Wizardry, where the challenge awaits. Harry Potter and The Memory Game is a game that transports you through the seven Harry Potter movies, featuring a distinct pair of images from each cinematic masterpiece. With 14 pairs in total, get ready to explore the magical journey from "The Sorcerer's Stone" to "The Deathly Hallows."
@@ -18,11 +19,10 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 
 ## Game Gallery
 
-![Screenshot 2023-10-11 at 5 42 26 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/3485c0d1-366e-4e1b-b66c-94a9e837bd40)
-
-![Screenshot 2023-10-11 at 5 51 04 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/49076a0e-3e19-41a7-a381-50eaf19e410d)
-
-![Screenshot 2023-10-11 at 5 51 30 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/2bd6d20b-2094-44e8-ac4e-d29774f23b68)
+![Screenshot 2023-10-12 at 8 36 57 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/e08e8668-8191-4137-9b9c-a05ea2f783bf)
+![Screenshot 2023-10-12 at 8 37 27 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/f6031156-f8b1-48ef-91d2-efada4a5fb59)
+![Screenshot 2023-10-12 at 8 40 55 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/6558ca0b-da0e-4052-bec9-cbca55031c59)
+![Screenshot 2023-10-12 at 8 38 59 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/e25e19bc-df0a-4e82-8242-d3c9af99546c)
 
 ## Technologies
 - HTML
@@ -30,6 +30,9 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 - JavaScript
 
 ## Challanging Code Parts
+
+![Screenshot 2023-10-12 at 8 44 15 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/faaf7ad6-0e85-4bc6-a67c-20deb7b9fe6e)
+![Screenshot 2023-10-12 at 8 45 19 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/0337cc59-f3a7-4ec5-80aa-40c89b760b2a)
 
 ## Author
 
