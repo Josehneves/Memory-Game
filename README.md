@@ -37,7 +37,7 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 
 ## Future Enhancements
 
-As a future plan I pretend to make the game more resposive in differen screen sizes and also use React to bring it to mobile application.
+As a future plan I pretend to make the game more resposive in different screen sizes and also use React to bring it to mobile application instead of it being on the browser, I belive this will allow a better use experiece.
 
 ## Author
 
