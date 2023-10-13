@@ -32,6 +32,7 @@ Get ready to showcase your magical prowess and embark on a mesmerizing journey t
 ## Challanging Code Parts
 
 ![Screenshot 2023-10-12 at 8 44 15 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/faaf7ad6-0e85-4bc6-a67c-20deb7b9fe6e)
+
 ![Screenshot 2023-10-12 at 8 45 19 PM](https://github.com/Josehneves/Memory-Game/assets/89682869/0337cc59-f3a7-4ec5-80aa-40c89b760b2a)
 
 ## Author
